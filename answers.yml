@@ -1,10 +1,8 @@
-Answer 1: "North_Dakota"
-Answer 2: 4
-Answer 3: 438
-Answer 4: 250
-Answer 5: 57
-Answer 6: 21
-Answer 7: LOC100288142
-Answer 8: 25
-Answer 9: 3325
-Answer 10: chr9
+answer-1: 1079
+answer-2: 0.384000
+answer-3: 850
+answer-4: PRAME
+answer-5: chr22:0-16150259
+	Bonus Round: Where a cluster is defined as overlapped or bookended intervals on 
+	the same DNA strand, return the number of genes in the largest gene cluster in hg19.
+Bonus Answer: 85

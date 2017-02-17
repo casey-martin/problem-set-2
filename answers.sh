@@ -25,7 +25,10 @@ echo answer-2: $myanswer2
 #rm /tmp/answer2.bed
 
 
-# is it more efficient to filter out non-CTCF peaks prior to bedtools operations?
+# is it more efficient to filter out non-CTCF peaks prior to bedtools 
+# operations? if so, is speed up worth it? need to find out why 
+# bedtools indexing is better than nested "for loops"
+
 
 myanswer3=$(bedtools map -wo -o mean -c 4 -a $mydir/bed/encode.tfbs.chr22.bed.gz \
 	 -b $mydir/bedtools/ctcf.hela.chr22.bg.gz \
